@@ -5,6 +5,7 @@ class CashRegister
   @@items = []
   
   def self.items
+    @@items
   end
   
   def initialize(employee_discount = 0)
